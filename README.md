@@ -31,3 +31,11 @@
 
     @Builder
     빌더(Builder) 패턴을 따르는 메서드를 생성합니다.
+
+    @Builder.Default
+    Builder의 기본 값을 설정합니다.
+        @Builder
+        public class SomeClass {
+            @Builder.Default
+            private String name = "james";
+        }
