@@ -4,7 +4,12 @@
 
 # 롬북(Lombok) 설치
 
-    롬북(Lombok)은 "dependency"를 추가하거나 인텔리제이(Intellij) -> "Marketplace"를 통해 추가할 수 있습니다.
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <optional>true</optional>
+    </dependency>
+    인텔리제이(Intellij) -> "Marketplace" -> "lombok" 검색 후 설치
     
     인텔리제이의 경우 룸북 설치 후 
     Setting -> [Build, Execution, Deployment] -> [Compiler] -> [Annotation Processors]
